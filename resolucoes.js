@@ -83,3 +83,46 @@ let valorCompra = compra - valorDesconto;
 // Peça um ano e verifique se é bissexto (divisível por 4 e não por 100, a menos que seja divisível por 400).
 
 
+
+
+
+
+
+// 8 - Acesso a um Sistema:
+// Peça um nome de usuário e uma senha. Se forem "admin" e "1234", exiba "Acesso permitido", caso contrário, "Acesso negado".
+
+
+let usuario = "admin";
+let senha = 1234;
+    if(usuario == "admin" && senha == 1234){
+        console.log("Acesso permitido");
+    } else {
+        console.log("Acesso negado");
+    }
+
+// 9 - Frete Grátis:
+//Se o valor da compra for maior ou igual a R$200, ofereça frete grátis, caso contrário, cobre R$20.
+
+let compra = 200;
+let taxa = 20;
+let compraFrete = compra + frete;
+
+    if(compra > 200){
+        console.log("Ao realizar uma compra com valor acima de R$ 200,00 reais, não cobramos o frete, nesse caso a sua compra não terá a taxa de frete. ");
+    } else {
+        console.log("O valor da sua compra: " + compra + ",00 será icluído o valor de: " + taxa + ",00 referente ao frete, ficando o valor total de compra mais o frete de: " + compraFrete + ",00")
+    }
+
+
+// 10 - Número dentro de um Intervalo:
+// Solicite um número e exiba "Está no intervalo" se ele estiver entre 10 e 50, caso contrário, exiba "Fora do intervalo".
+
+let numero = 22;
+
+    if(numero >= 10 && numero <= 50 ){
+        console.log("O número está dentro da sequencia de 10 á 50 sendo ele o número " + numero )
+    } else {
+        console.log("Esse número " + numero + " não está dentro da sequencia entre 10 e 50.")
+    }
+
+
