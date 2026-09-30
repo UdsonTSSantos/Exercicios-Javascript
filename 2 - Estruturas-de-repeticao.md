@@ -38,6 +38,17 @@ Some todos os números de 1 a 100 e exiba o resultado.
 #### 4 - Números pares de 1 a 50:
 Exiba todos os números pares de 1 a 50.
 
+
+
+for(i = 0; i <= 50; i++>){
+    if(i % 2 == 0){
+        console.log(i);
+    }
+
+
+}
+
+
 #### 5 - Contagem regressiva de 10 a 0:
 Imprima uma contagem regressiva de 10 até 0.
 

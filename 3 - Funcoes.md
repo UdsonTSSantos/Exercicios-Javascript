@@ -56,6 +56,14 @@ Utilize um loop for dentro da função.
 Crie uma função chamada mostrarDataHora que exiba no console a data e a hora atual.
 Utilize new Date() para obter a data e toLocaleString() para formatá-la.
 
+
+
+
+
+
+
+
+
 #### 4 - Função para imprimir a tabuada do 3
 Crie uma função chamada tabuadaTres que imprima a tabuada do 3 (de 3 × 1 até 3 × 10).
 Utilize um loop for dentro da função.
