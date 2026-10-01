@@ -125,4 +125,9 @@ let numero = 22;
         console.log("Esse número " + numero + " não está dentro da sequencia entre 10 e 50.")
     }
 
+ // 1 - Função para exibir uma mensagem personalizada
+// Crie uma função chamada exibirMensagem(mensagem), que recebe um texto como parâmetro e exibe no console.
+// Exemplo: exibirMensagem("Olá, seja bem-vindo!") → Exibe "Olá, seja bem-vindo!" no console
+// 
 
+console.log("GM, Ford, VW, fiat, Ferrari, Volvo, Porsche".split(","));
